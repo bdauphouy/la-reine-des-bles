@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm lint *)",
+      "Bash(mkdir -p public/gallery)",
+      "Bash(curl -sL -o photo-01.jpg \"https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKf2EqYpDY5f9aqvfCNbmRsOc-867G2Xs0Ml7vk-QAiOvj6d2M0UnvpdDk3GwqzLHtn-CB3g-pDgjImlKfdgxm3XPuQpUbNqqEI0ckP6VhFi5zAdAEy_O9NXoRBEcjNH1XcX33=w1600-h1200-k-no\")",
+      "Bash(curl -sL -o photo-02.jpg \"https://lh3.googleusercontent.com/gps-cs-s/APNQkAEU85DM459nVhoIF3xVhExFG-Uxlhky5O8E36dDKa34b79cc2UW3tRLiIjSy5rNDrH8bwUEKmEo1IFdPOOTmlxpitOtDj-9Df6P1FFSk1iXoPPv_A__SOd9Z03sUg7-puC-ch8sBg=w1600-h1200-k-no\")",
+      "Bash(curl -sL -o photo-03.jpg \"https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1pBLD6_RhCFaxClxT7AqnCA7VvHsYIndpLHqIqdb8RpS4CuibF6CghHmRJxos--0pWPpQsVzLSRpWi0G_eKhgF4SWN2-01_TZX_hCxIPYUy6lMgLGcnEA-M9Q7hL-B6g9EjUFJ473z752=w1600-h1200-k-no\")",
+      "Bash(curl -sL -o photo-04.jpg \"https://lh3.googleusercontent.com/gps-cs-s/APNQkAH05VQnmbhynWxBjf6z_KRTiE0JT1vexlTq0VuHK-dF-c0TrpTqiqYuPf5Gj4B4DQne9hYXgIkYni8FAjttj59UcBvVRVrBPD0d25FI0B0bxs1f6e7AfxrcZA3xyLHfoA2U2xE8=w1600-h1200-k-no\")",
+      "Read(//Users/dani/Downloads/**)",
+      "Bash(cp \"/Users/dani/Downloads/logo.png\" /Users/dani/Desktop/la-reine-des-bles/public/brand/logo.png)",
+      "Bash(identify /Users/dani/Desktop/la-reine-des-bles/public/brand/logo.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight /Users/dani/Desktop/la-reine-des-bles/public/brand/logo.png)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 *)",
+      "Bash(cp \"/Users/dani/Downloads/logo-2.png\" /Users/dani/Desktop/la-reine-des-bles/public/brand/logo.png)",
+      "Bash(cp \"/Users/dani/Downloads/logo-2.png\" /Users/dani/Desktop/la-reine-des-bles/app/icon.png)",
+      "Bash(md5 public/brand/logo.png app/icon.png)",
+      "Bash(curl *)",
+      "Bash(pwd -P)"
+    ]
+  }
+}
